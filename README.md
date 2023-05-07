@@ -6,7 +6,7 @@ The project uses Blender for making 3D Modelof an amusement park, OpenGl for Gly
 
 ## :warning: TechStack/framework used
 
-- [OpenGl] (https://www.opengl.org/)
+- [OpenGL](https://www.opengl.org/)
 - [OpenCV](https://opencv.org/)
 - [Python](https://www.python.org/)
 
@@ -16,15 +16,12 @@ This project can be used for real-time overlaying of maps and blueprints onto ca
 
 ## Working
 ## Making the 3D model on Blender:
-The conveyer belt used in this project is made at home using spare parts like an old spare motor, a broken headphone's headband, a bed table and some empty medicine bottles for the wheels of the conveyer belt.
-  <img src="https://github.com/Navtegh/Real-Time-Custom-Object-Detection-and-Counting-on-bespoke-conveyer-belt/blob/main/IMG_1.jpg"/>
+The 3D model of amusement park is built on Blender and exported as a combination of a .obj file and a .mtl file for use in OpenGL. 
+  <img src="https://github.com/stuti2403/Augmented-Reality-Amusement-Park/blob/main/blender%20model.png"/>
  
 
-## Training the model on custom dataset:
-To train the model, run the file train_yolov8_model_on_custom_data.ipynb, and download the trained model.
-
-## Testing and counting objects on the conveyer belt:
-To count objects, run the file objdet.py and start the conveyer belt. The category of object and its count starts appearing on screen as the object moves on the conveyer belt.
+## Glyph Creation and Detection followed by Overlaying on OpenGL:
+The glyph used looks like this. It is simply printed on a paper and kept in front of the web camera for detection:
 
 
 
