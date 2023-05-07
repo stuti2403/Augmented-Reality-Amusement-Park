@@ -2,7 +2,7 @@
 A computer Graphics Project that overlays 3D model of an Amusement Park onto a Glyph in real-time using Augmented Reality. 
 
 ## :innocent: About the Project
-The project uses Blender for making 3D Modelof an amusement park, OpenGl for Glyph Detection on web camera feed and concepts of Augmented Reality for overlaying the model onto a glyph pattern. This way, when one visits the park for the first time, they can simply scan their tickets and looking at the map, plan their visit accordingly.
+The project uses Blender for making 3D Modelof an amusement park, OpenGl for Glyph Detection on web camera feed and concepts of Augmented Reality for overlaying the model onto a glyph pattern. This way, when one visits the park for the first time, they can simply scan their tickets and looking at the map, plan their visit accordingly. The overlaying has also been made sensitive to rotation. In other words, as the glyph is rotated, the layout of the 3D model is also rotated accordingly.
 
 ## :warning: TechStack/framework used
 
@@ -22,13 +22,21 @@ The 3D model of amusement park is built on Blender and exported as a combination
 
 ## Glyph Creation and Detection followed by Overlaying on OpenGL:
 The glyph used looks like this. It is simply printed on a paper and kept in front of the web camera for detection:
+ <img src="https://github.com/stuti2403/Augmented-Reality-Amusement-Park/blob/main/glyph_01.png"/>
+ 
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+ On detecting the glyph, the code overlays the 3D model onto it as shown below. Also, as the glyph is rotated, the overlay of the model onto it is also rotated accordingly, as shown below: 
+  <img src="https://github.com/stuti2403/Augmented-Reality-Amusement-Park/blob/main/output1.png"/>
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+<img src="https://github.com/stuti2403/Augmented-Reality-Amusement-Park/blob/main/output2.png"/>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/stuti2403/Augmented-Reality-Amusement-Park/blob/main/output3.png"/>
+ 
+ 
 
-
-
-
-
-https://user-images.githubusercontent.com/25746677/227775801-e7a99bc3-509b-4d37-895f-bbf516abf8f4.mp4
 
 
